@@ -1,5 +1,5 @@
 package Clases;
 
-public class Ciclomotor {
+public class Ciclomotor extends Vehiculo {
 
 }
