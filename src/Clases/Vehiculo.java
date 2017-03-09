@@ -14,7 +14,7 @@ public abstract class Vehiculo implements Arrancable, Movible {
 	
 	// CONSTRUCTOR
 	public Vehiculo(String color, String matricula, String marca, String modelo, double velocidadMaxima,
-			double velocidadActual, String telefonoDueño, boolean estado) {
+			double velocidadActual, String telefonoDueño) {
 		super();
 		Color = color;
 		Matricula = matricula;
@@ -23,7 +23,6 @@ public abstract class Vehiculo implements Arrancable, Movible {
 		VelocidadMaxima = velocidadMaxima;
 		VelocidadActual = velocidadActual;
 		TelefonoDueño = telefonoDueño;
-		Estado = estado;
 	}
 	
 	// METODOS

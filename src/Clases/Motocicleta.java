@@ -5,7 +5,7 @@ public class Motocicleta extends Vehiculo{
 	
 	public Motocicleta(String color, String matricula, String marca, String modelo, double velocidadMaxima,
 			double velocidadActual, String telefonoDueño, boolean estado) {
-		super(color, matricula, marca, modelo, velocidadMaxima, velocidadActual, telefonoDueño, estado);
+		super(color, matricula, marca, modelo, velocidadMaxima, velocidadActual, telefonoDueño);
 		CambiarEscape(MarcaEscape);
 	}
 	

@@ -6,8 +6,8 @@ public class Coche extends Vehiculo {
 	
 	// CONSTRUCTOR
 	public Coche(String color, String matricula, String marca, String modelo, double velocidadMaxima,
-			double velocidadActual, String telefonoDueño, boolean estado) {
-		super(color, matricula, marca, modelo, velocidadMaxima, velocidadActual, telefonoDueño, estado);
+			double velocidadActual, String telefonoDueño) {
+		super(color, matricula, marca, modelo, velocidadMaxima, velocidadActual, telefonoDueño);
 		subirVentanillas();
 	}
 	
